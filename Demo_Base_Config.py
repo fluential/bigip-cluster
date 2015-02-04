@@ -3154,7 +3154,8 @@ def main():
     # https://wiki.python.org/moin/ConfigParserShootout
     # However, this experiment turned relatively unwieldy as well. 
     # Ideally need a more robust legitimate config parsing/importing/storage mechanism ( that might even convert from original tmsh syntax )  
-    # and be able to modify with webapp 
+    # and be able to modify with webapp, store in json instead, etc.
+    # UPDATE: Need to convert config import to YAML/Jinja2 for Ansible 
     ###########################################################################################
 
     print "bigip variables configuration file = " + options.bigip_config_vars + " !"
